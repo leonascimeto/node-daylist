@@ -35,7 +35,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ## 🚀 Como rodar este projeto
 
-- Para clonar e executar este aplicativo, você precisará de [Git](https://git-scm.com), [NodeJs][https://nodejs.org/en/] e [mongo](https://www.mongodb.com/) Instalado em seu computador.
+- Para clonar e executar este aplicativo, você precisará de [Git](https://git-scm.com), [Node](https://nodejs.org/en/) e [mongo](https://www.mongodb.com/) Instalado em seu computador.
 
 
 ### 🌀 Clonando o repositório
