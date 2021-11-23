@@ -15,7 +15,7 @@ Node-API-DayList
 
 ## 🚀 Sobre o Projeto
 
-API do projeto DayList, realiza integração com o mongoDB e realizar cadastro, alteração e exclusão de tarefas, decidi desenvolver esta tecnologia para mostrar um pouco do que posso fazer atualmente com Node.js e tecnologias relacionadas.
+API do projeto [DayList](https://github.com/leonascimeto/react-native-daylist), realiza integração com o mongoDB, cadastro, alteração e exclusão de tarefas, decidi desenvolver esta tecnologia para mostrar um pouco do que posso fazer atualmente com Node.js e tecnologias relacionadas.
 
 ### 🛠 Tecnologias
 
@@ -26,36 +26,26 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [date-fns](https://date-fns.org/)
 - [mongoose](https://mongoosejs.com/)
 
-"cors": "^2.8.5",
-    "date-fns": "^2.24.0",
-    "express": "^4.17.1",
-    "mongoose": "^6.0.7"
 
 ### Features
 
-- [x] integração com versão web
-- [x] consumo de api com axios
-- [x] tela de listagem de tarefas com filtro
-- [x] icone de notificação de tarefas atrasadas
-- [x] scanner de qrcode
+- [x] conexão com banco de dados Mongo
+- [x] lista tarefas em filtros: todos, hoje, semana, mês e ano
+- [x] listar tarefas atrasadas
 
 ## 🚀 Como rodar este projeto
 
-- Para clonar e executar este aplicativo, você precisará de [Git](https://git-scm.com), [NodeJs][nodejs] Instalado em seu computador.
-- Necessário executar API do projeto, segue o link do repositório: [API DAYLIST]().
-- Ter o Expo instalado de forma global.
-- Possuir um disposito ou emulador Android/IOS.
-- o arquivo src/services/api.js a contante baseURL deve ser alterada para o IP da rede local.
+- Para clonar e executar este aplicativo, você precisará de [Git](https://git-scm.com), [NodeJs][https://nodejs.org/en/] e [mongo](https://www.mongodb.com/) Instalado em seu computador.
 
 
 ### 🌀 Clonando o repositório
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/leonascimeto/react-native-daylist.git
+$ git clone https://github.com/leonascimeto/node-daylist.git
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd react-native-daylist
+$ cd node-daylist
 ```
 
 ### 🧭 Rodando a aplicação web
